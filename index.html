@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Harsh Anand</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- <script>
+        let menuIcon = document.querySelector('#menu-icon');
+        let navbar = document.querySelector('.navbar');
+
+        menuIcon.onclick = () => {
+            menuIcon.classList.toggle('bx-x');
+            navbar.classList.toggle('active');
+        }
+
+    </script> -->
+
+    <!-- Home Section Design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Harsh <span>Anand</span></h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+
+            <!-- Social Media Hover Effect Icons -->
+            <ul style="margin-bottom: 1.5rem;">
+                <li class="item">
+                    <a href="https://www.instagram.com/_i.am.harsh7/?next=%2F" target="_blank">
+                        <i class="fa-brands fa-instagram icon"></i>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="https://github.com/HarshAnand19" target="_blank">
+                        <i class="fa-brands fa-github icon"></i>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="https://www.linkedin.com/in/harsh-anand-/" target="_blank">
+                        <i class="fa-brands fa-linkedin icon"></i>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="https://twitter.com/harshanand216" target="_blank">
+                        <i class="fa-brands fa-x-twitter icon"></i>
+                    </a>
+                </li>
+            </ul>
+            <a href="https://drive.google.com/drive/folders/1ER1bAdNYC-gxM6uXsEMsFBXfbdwPI63i" target="_blank"
+                id="downloadButton" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="assets/picture.jpg" alt="pic.jpg">
+        </div>
+    </section>
+
+    <!-- About Section Design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/Profile.jpeg" alt="pic.jpg">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full-Stack Developer</h3>
+            <p>Hello, I'm Harsh Anand and my hometown is Ranchi. I completed my schooling at D.P.S, Ranchi
+                and pursued a B.Tech in Electronics and Communication Engineering at BIT Mesra
+                (2019 - 2023).During my academic journey, I discovered a strong passion for Coding and
+                Software Development. I'm proficient in both web and mobile development, with experience
+                in native and cross-platform mobile development using Flutter. I've also honed my skills
+                in full-stack web development, using Angular and SpringBoot.I'm a dedicated and
+                motivated individual, always on the lookout for opportunities to contribute and grow
+                within organizations. Beyond tech, I like watching movies and reading novels.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Section Design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p style="text-align: justify;">I am passionate about creating exceptional website that create an
+                    impact.I am proficient in HTML,CSS and javascript. My website are fully responsive across multiple
+                    devices which offer a smooth experience for every user
+                </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-angular'></i>
+                <h3>Full Stack Development</h3>
+                <p style="text-align: justify;">I am well versed in Full Stack Technologies and can work in both
+                    Frontend and Backend services for building robust and scalable websites. I honed my skills in
+                    Angular for Frontend and SpringBoot for building Backend.
+                </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-mobile-alt'></i>
+                <h3>Mobile Development</h3>
+                <p style="text-align: justify;font-size: 1.5rem;">
+                    I am proficient in native application development using Java and Kotlin. I am also comfortable
+                    working with Dart and Flutter for building cross-platform apps.
+                    Apart from this I learnt Firebase for making Backend for mobile applications
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="assets/gym.jpg" alt="gym.jpg">
+                <div class="portfolio-layer">
+                    <h4>Gym Management Website</h4>
+                    <p>This is a Gym Management Website and it is role based - for both user and admin. Users can book
+                        slots, choose plans, manage their workout.Admin manage whole details for gym.It is made using
+                        Angular and SpringBoot</p>
+                    <a href="https://github.com/HarshAnand19/GymPro" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="assets/blog1.jpg" alt="gym.jpg">
+                <div class="portfolio-layer">
+                    <h4>Blog Application</h4>
+                    <p>This is a Blog posting and sharing mobile application.Users can add blogs,like and comment on
+                        other's blogs and share their thoughts. It is made using Flutter and Firebase</p>
+                    <a href="https://github.com/HarshAnand19/Blog-Application" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="assets/arduino.jpg" alt="gym.jpg">
+                <div class="portfolio-layer">
+                    <h4>Smart Home Automation</h4>
+                    <p>I have made a prototype using TinkerCad software. In this project I have used Arduino Uno to
+                        assemble features of Smart Door locking system, gas sensing device and motion sensing device
+                    </p>
+                    <a href="https://www.tinkercad.com/things/5Ya1vLS0Yo6-smart-home/editel" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section Design -->
+    <h2 class="heading">My <span>Skills</span></h2>
+    <section class="skills" id="skills">
+
+        <!-- Technical Skills -->
+
+        <section class="skill-flex">
+            <div class="container1" id="skill">
+                <h3 class="heading headin">Technical Skills</h3>
+
+                <div class="Technical-bars">
+
+                    <div class="bar"><i style="color:#f06529" class='bx bxl-html5'></i>
+                        <div class="info">
+                        </div>
+                        <div class="progress-line html">
+                            <span class="prog">HTML</span>
+                        </div>
+                    </div>
+                    <div class="bar"><i style="color:#2965f1" class='bx bxl-css3'></i>
+                        <div class="info">
+                        </div>
+                        <div class="progress-line css">
+                            <span class="prog">CSS</span>
+                        </div>
+                    </div>
+                    <div class="bar"><i style="color: #f0db4f;" class='bx bxl-javascript'></i>
+                        <div class="info">
+                        </div>
+                        <div class="progress-line javascript">
+                            <span class="prog">JAVASCRIPT</span>
+                        </div>
+                    </div>
+                    <div class="bar"><i style="color: #f89820;" class='bx bxl-java'></i>
+                        <div class="info">
+                        </div>
+                        <div class="progress-line java">
+                            <span class="prog">JAVA</span>
+                        </div>
+                    </div>
+                    <div class="bar"><i style="color:#007acc;" class='bx bxl-typescript'></i>
+                        <div class="info">
+                        </div>
+                        <div class="progress-line typescript">
+                            <span class="prog">TYPESCRIPT</span>
+                        </div>
+                    </div>
+                    <div class="bar"><i style="color: #42f492;" class='bx bxl-spring-boot'></i>
+                        <div class="info">
+                        </div>
+                        <div class="progress-line spring-boot">
+                            <span class="prog">SPRING-BOOT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Skills -->
+        <div class="container1 cont">
+            <h1 class="heading headin">Professional Skills</h1>
+            <div class="radial-bars">
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="textskill">Teamwork</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="textskill">Communication</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="textskill">Problem Solving</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="textskill">Creativity</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="https://www.linkedin.com/in/harsh-anand-/" method="get">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 By Harsh Anand | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
